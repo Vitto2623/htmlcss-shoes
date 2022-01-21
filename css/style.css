@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.font{
+    font-weight: bolder;
+    font-family: 'Anton';
+    font-size: 6em;
+    color: yellow;
+    padding: 0px 134px;
+    margin-bottom: 70px;
+}
+
+.container-red{
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+    
+}
+
+.container-green{
+    height: 100vh;
+    width: 100vw;
+    background-color: green;
+}
+
+.container-yellow{
+    height: 100vh;
+    width: 100vw;
+    background-color: yellow;
+}
+
+.container-red #section-1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-green #section-2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-yellow #section-3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.relative{
+    position: relative;
+}
+
+section h1{
+    text-align: center;
+}
+
+.logo-size{
+    padding: 0em 8em;
+    margin-bottom: 6px;
+}
+
+#green{
+    color: green;
+}
+
+#margin-top{
+    margin-top: 100px;
+}
